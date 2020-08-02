@@ -1,0 +1,37 @@
+{
+  "name": "array-move-slice",
+  "version": "1.0.0",
+  "description": "A tiny utility to move a slice of an array from one starting index to another within the same array",
+  "source": "src/index.ts",
+  "main": "dist/array-move-slice.js",
+  "module": "dist/array-move-slice.mjs",
+  "unpkg": "dist/array-move-slice.umd.js",
+  "types": "dist/array-move-slice.d.ts",
+  "amdName": "ArrayMoveSlice",
+  "sideEffects": false,
+  "scripts": {
+    "build": "rm -rf dist && microbundle --strict"
+  },
+  "repository": "https://github.com/drenther/array-move-slice.git",
+  "author": "Soumyajit Pathak",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "microbundle": "^0.12.3",
+    "prettier": "^2.0.5",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*": [
+      "prettier --write .",
+      "git add"
+    ]
+  }
+}
