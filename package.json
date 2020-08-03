@@ -12,6 +12,7 @@
   "scripts": {
     "build": "rm -rf dist && microbundle --strict"
   },
+  "keywords": ["utility", "array", "move", "slice"],
   "repository": "https://github.com/drenther/array-move-slice.git",
   "author": "Soumyajit Pathak",
   "license": "MIT",
