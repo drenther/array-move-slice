@@ -1,5 +1,7 @@
 # array-move-slice
 
+![Bundle Size](https://badgen.net/bundlephobia/minzip/array-move-slice) ![npm version](https://badgen.net/npm/v/array-move-slice) ![types](https://badgen.net/npm/types/array-move-slice) ![license](https://badgen.net/npm/license/array-move-slice)
+
 > Move a slice of an array to a different position in the array
 
 Very similar to [array-move](https://github.com/sindresorhus/array-move) but with this package you can move single element or a slice of elements (only continuous slices though). If you need to move multiple items that are not in sequence try using [array-move-multiple](https://www.npmjs.com/package/array-move-multiple)
